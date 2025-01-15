@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -11,9 +12,7 @@ public class Charaktere {
         this.id = id;
         this.name = name;
         this.herkunftsort = herkunftsort;
-        for (Produkte produkte : this.produkte) {
-
-        }
+        this.produkte = new ArrayList<>();
 
 
     }
